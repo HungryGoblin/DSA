@@ -10,7 +10,7 @@ public class Lesson1 {
     public static void main(String[] args) {
         System.out.printf("3pow2: %d%n", power(3, 3));
         System.out.printf("minEl {10,2,3,6,-4,0,8}: %d%n", minEl(new int[]{10, 2, 3, 6, -4, 0, 8}));
-        System.out.printf("minEl {10,2,3,6,-4,0,8}: %.2f%n", avg(new float[]{10.0F, 2.0F, 3.0F, 6.0F, -4.0F, 0.0F, 8.0F}));
+        System.out.printf("avg {10,2,3,6,-4,0,8}: %.2f%n", avg(new float[]{10.0F, 2.0F, 3.0F, 6.0F, -4.0F, 0.0F, 8.0F}));
     }
 
     //  1.1. Возведение в степень *используя чётность степени*
