@@ -61,10 +61,7 @@ public class Lesson2 {
         public boolean deleteAll(int value) {
             for (int index = 0; index < size; index++) {
                 if (arr[index] == value) {
-                    if (index > 0)
-                        System.arraycopy(arr, 0, arr, 0, size - index - 1);
-                    if (index < size)
-                        System.arraycopy(arr, index + 1, arr, index, size - index - 1);
+                    System.arraycopy(arr, index + 1, arr, index, size - index - 1);
                     size--;
                 }
             }
