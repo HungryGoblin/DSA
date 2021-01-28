@@ -123,11 +123,11 @@ public class Lesson4 {
 
     private static class DoubleLinkedList extends SingleLinkedList {
 
-        private SingleLinkedList.Node child;
+        private SingleLinkedList.Node tail;
 
         public DoubleLinkedList() {
             super();
-            child = null;
+            tail = null;
         }
 
         private class Node extends SingleLinkedList.Node {
